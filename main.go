@@ -15,7 +15,7 @@ func main() {
 			wg.Done()
 		}()
 	}
-
+	// add race
 	wg.Wait()
 }
 
